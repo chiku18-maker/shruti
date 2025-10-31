@@ -1,0 +1,68 @@
+body {
+  background: linear-gradient(135deg, #ffe6f7, #d0f0ff);
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background: white;
+  padding: 40px;
+  border-radius: 25px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 400px;
+  animation: float 3s ease-in-out infinite;
+}
+
+.title {
+  color: #ff66b2;
+  font-size: 2em;
+}
+
+.message {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+button {
+  background: #ff99cc;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #ff66b2;
+  transform: scale(1.05);
+}
+
+.hidden {
+  display: none;
+}
+
+#surprise img {
+  width: 150px;
+  margin-top: 20px;
+}
+
+.love-note {
+  font-size: 1.2em;
+  color: #ff66b2;
+  margin-top: 10px;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
